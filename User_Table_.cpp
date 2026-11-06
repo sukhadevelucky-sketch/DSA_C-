@@ -2,12 +2,13 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout << "Enter the number :";
+    int i = 1, n;
+    cout << "The multiplication table " << endl;
+    cout << "Enter the num : ";
     cin >> n;
-    for (int i = 1; i <= 10; i++)
+    while (i <= 10)
     {
-
-        cout << "Table of  " << n << " = " << i * n << endl;
+        cout << i * n << endl;
+        i++;
     }
 }
